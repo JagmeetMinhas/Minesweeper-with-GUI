@@ -24,7 +24,7 @@ def bury_mines(gameboard,n):
     gameboard[rrow][rcol] = bomb_symbol
   return gameboard
 
-#gets numebr of mines adjacent to particular square
+#gets number of mines adjacent to particular square
 
 def get_mine_count(gameboard):
   for y in range(len(gameboard)):
